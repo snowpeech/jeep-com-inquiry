@@ -1,0 +1,75 @@
+:root {
+  --yellow: #FFBA00;
+  --grey1: #636363;
+  --dotgrey:#BDBDBD;
+  --ltgrey: #D1D1D1; 
+  --ltgrey2: #E7E7E7; 
+  --lnkgrey:#BFBFBF;
+  --dkgrey: #212121;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;	
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar-brand {
+/*	color:white;
+*/}
+
+.navbar a, .navbar-toggler {
+	color:white;
+	border-color:white;
+}
+
+.responsive {
+	height: auto;
+}
+
+.logo {
+	width: 60px;
+	padding: 9px 5px 5px;
+}
+
+.bottom {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.end {
+	border-top: 1px solid var(--grey1);
+	border-bottom: none;
+	font-size: 10px;
+	text-transform: none;
+	color: 	var(--ltgrey);
+}
+
+.end a {
+	padding: 10px;
+	text-transform: uppercase;
+	color: 	var(--ltgrey);
+	display: inline-block;
+}
