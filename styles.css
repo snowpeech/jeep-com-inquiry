@@ -6,6 +6,7 @@
   --ltgrey2: #E7E7E7; 
   --lnkgrey:#BFBFBF;
   --dkgrey: #212121;
+  --sidegrey:#222222;
 }
 
 body {
@@ -22,6 +23,11 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px;
 }
 
 h3 {
@@ -50,6 +56,42 @@ h3 {
 .logo {
 	width: 60px;
 	padding: 9px 5px 5px;
+}
+
+.rail {
+	background-color: var(--sidegrey);
+	color:white;
+}
+
+.leftrail {
+
+}
+
+
+.rightrail {
+
+}
+
+.ylwbtn {
+	background-color: var(--yellow);
+	border-radius: 2px;
+	color: black;
+	padding: 10px 20px;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0px 33px;
+	white-space:nowrap;
+	text-transform: uppercase;
+	display: inline-flex;
+}
+
+.ylwbtn::after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f054";
+	display: inline-block;
+	padding-left: 5px;
+	vertical-align: middle;
+	font-weight:900;
 }
 
 .bottom {
